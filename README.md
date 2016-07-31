@@ -57,7 +57,7 @@ This file contains a number of front-end interview questions that can be used wh
   * *XHTML is an extension of HTML that must adhere to the stricter XML*
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
-  * *you use language tags <html lang="en">Allowances for Screen Readers If you are using a different
+  * *you use language tags '<html lang="en">' Allowances for Screen Readers If you are using a different
   language within a portion of the page you would use <blockquote lang="fr"><p></p></blockquote>*
 * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
