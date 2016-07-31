@@ -60,10 +60,19 @@ This file contains a number of front-end interview questions that can be used wh
   * *you use language tags html lang="en" Allowances for Screen Readers If you are using a different
   language within a portion of the page you would use 'blockquote lang="fr" p /p /blockquote*
 * What kind of things must you be wary of when design or developing for multilingual sites?
+  * *the length of words or statements may kind of play with styles*
 * What are `data-` attributes good for?
+  * *allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, extra properties on DOM, or setUserData*
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
+  * *https://developer.mozilla.org/en-US/docs/Web/API/Storage*
+  * *An HTTP cookie (also called web cookie, Internet cookie, browser cookie or simply cookie) is a small piece of data sent from a website and stored in the user's web browser while the user is browsing. Cookies were designed to be a reliable mechanism for websites to remember stateful information (such as items added in the shopping cart in an online store) or to record the user's browsing activity (including clicking particular buttons, logging in, or recording which pages were visited in the past). They can also be used to remember arbitrary pieces of information that the user previously entered into form fields such as names, addresses, passwords, and credit card numbers.*
+  * *data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores.*
+  * *The localStorage property allows you to access a local Storage object. localStorage is similar to sessionStorage. The only difference is that, while data stored in localStorage has no expiration time*
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+  * *The HTML Script Element (<script>) is used to embed or reference an executable script*
+  * *Script async indicates that the browser should, if possible, execute the script asynchronously. It has no effect on inline scripts (i.e., scripts that don't have the src attribute)*
+  * *Script defer indicates to a browser that the script is meant to be executed after the document has been parsed. Since this feature hasn't yet been implemented by all other major browsers, authors should not assume that the script’s execution will actually be deferred. The defer attribute shouldn't be used on scripts that don't have the src attribute.*
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
 * Have you used different HTML templating languages before?
