@@ -50,6 +50,8 @@ This file contains a number of front-end interview questions that can be used wh
 
 * What does a `doctype` do?
 * What's the difference between standards mode and quirks mode?
+** quirks mode allows for older browsers, using non-standard behaviors like Navigator 4 and I.E 5
+
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
@@ -85,7 +87,7 @@ This file contains a number of front-end interview questions that can be used wh
   * Describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
-* Describe pseudo-elements and discuss what they are used for. 
+* Describe pseudo-elements and discuss what they are used for.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * List as many values for the display property that you can remember.
